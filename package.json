@@ -1,0 +1,16 @@
+{
+  "name": "gulp-stfp-experiment",
+  "version": "0.0.1",
+  "description": "自动化部署尝试",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "自动化",
+    "gulp",
+    "gulp-sftp"
+  ],
+  "author": "zybear",
+  "license": "ISC"
+}
