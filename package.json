@@ -4,13 +4,23 @@
   "description": "自动化部署尝试",
   "main": "index.js",
   "scripts": {
+    "deploy": "gulp oss",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "自动化",
     "gulp",
-    "gulp-sftp"
+    "gulp-sftp",
+    "gulp-oss-sync"
   ],
   "author": "zybear",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "ali-oss": "^6.0.1",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-oss-sync": "^1.0.4",
+    "gulp-sftp": "^0.1.5",
+    "webpack": "^4.16.5"
+  }
 }
